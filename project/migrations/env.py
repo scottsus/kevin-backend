@@ -11,6 +11,7 @@ from alembic import context
 
 from app.models.base import PostgresBase
 from app.models.song import Song
+from app.models.job import Job
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
